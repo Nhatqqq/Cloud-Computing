@@ -68,7 +68,7 @@
             width: 20%;
             background-color: lightslategray;
             float: left;
-            height: 800px;
+            height: flex;
         }
 
             .left > p {
@@ -112,7 +112,7 @@
             width: 80%;
             background-color: lightgreen;
             float: right;
-            height: 800px;
+            display: flex;
         }
 
             .right > h3 {
