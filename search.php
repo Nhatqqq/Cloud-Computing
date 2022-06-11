@@ -13,7 +13,7 @@
         .header {
             height: 55px;
             border: 1px solid black;
-            background-color: lightpink;
+            background-color: darkseagreen;
         }
 
             .header img {
@@ -42,7 +42,7 @@
 
         .menu {
             height: 30px;
-            background-color: darkslateblue;
+            background-color: darkcyan;
         }
 
             .menu ul li {
@@ -66,9 +66,9 @@
 
         .left {
             width: 20%;
-            background-color: lightslategray;
+            background-color: darkslateblue;
             float: left;
-            height: 800px;
+            height: flex;
         }
 
             .left > p {
@@ -110,9 +110,9 @@
 
         .right {
             width: 80%;
-            background-color: lightgreen;
+            background-color: darkturquoise;
             float: right;
-            height: 800px;
+            display: inline-flex;
         }
 
             .right > h3 {
@@ -120,8 +120,14 @@
                 font-size: 20px;
             }
 
+    .product > p {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
         .single-product {
             margin-left: 30px;
+            margin-right: 30px;
             float: left;
         }
 
@@ -141,7 +147,7 @@
 <body style="background-color:black">
     <div class="wrapper">
         <div class="header">
-            <img src="https://brademar.com/wp-content/uploads/2022/05/LEGO-Logo-PNG-1998-–-Now-2.png" />
+            <img src="https://i.pinimg.com/originals/4e/f7/bc/4ef7bcae3515ae56fcc5bc2b19f4c27e.jpg" />
             <a href="">
               <div class="cart">
                   <img style="float:right" id="cart" src="X/cart.png" />
@@ -166,8 +172,8 @@
         <?php
             }
         ?>
-       <div class="banner">
-            <img src="https://img.freepik.com/free-vector/flat-design-background-christmas-toys_23-2148355805.jpg?w=2000" alt="Slideshow Image 1" />
+        <div class="banner">
+            <img src="https://kidsland.vn/media/catalog/category/Lego-banner.jpg" />
         </div>
         <div class="menu">
             <ul>
@@ -178,7 +184,7 @@
                 <li><a href="register.php" target="_blank">Register</a></li>
             </ul>
         </div>
-       <div class="content">
+        <div class="content">
             <div class="left">
                 <p>Function</p>
                 <div class="category">
@@ -204,18 +210,18 @@
                 </div>
             </div>
             <div class="right">
-                <p style="text-align:center;font-size:25px;">Seach Result</p>
                 <div class="product">
+                    <p>Seach Result</p>
                     <?php
                         $connect = mysqli_connect("3.132.234.157","quanglxn","123@123a","quanglxn");
-		                if($connect)
+                        if($connect)
                         {
                             
-		                }
-		                else
+                        }
+                        else
                         {
-			                echo "Connect Failed!";
-		                }
+                            echo "Connect Failed!";
+                        }
                         if (isset($_GET['search']))
                         {
                             $search= $_GET['user_query'];
@@ -251,26 +257,8 @@
                     <th>Someone Brand</th>
                     <th>NF</th>
                 </tr>
-                <tr>
-                    <td><a href="">Homepage</a></td>
-                    <td><a href="">Blog</a></td>
-                    <td><a href="">Facebook</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Contact</a></td>
-                    <td><a href="">Contact</a></td>
-                    <td><a href="">Contact</a></td>
-                </tr>
-                <tr>
-                    <td>111, Bà Triệu, Hà Nội</td>
-                    <td>112, Bà Triệu, Hà Nội</td>
-                    <td>113, Bà Triệu, Hà Nội</td>
-                </tr>
             </table>
         </div>
     </div>
-    <?php
-        
-    ?>
 </body>
 </html>
