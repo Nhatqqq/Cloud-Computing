@@ -13,7 +13,7 @@
         .header {
             height: 55px;
             border: 1px solid black;
-            background-color: lightpink;
+            background-color: darkseagreen;
         }
 
             .header img {
@@ -42,7 +42,7 @@
 
         .menu {
             height: 30px;
-            background-color: darkslateblue;
+            background-color: darkcyan;
         }
 
             .menu ul li {
@@ -66,7 +66,7 @@
 
         .left {
             width: 20%;
-            background-color: lightslategray;
+            background-color: darkslateblue;
             float: left;
             height: flex;
         }
@@ -110,7 +110,7 @@
 
         .right {
             width: 80%;
-            background-color: lightgreen;
+            background-color: darkturquoise;
             float: right;
             display: flex;
         }
@@ -142,7 +142,7 @@
 <body style="background-color:black">
     <div class="wrapper">
         <div class="header">
-            <img src="https://brademar.com/wp-content/uploads/2022/05/LEGO-Logo-PNG-1998-–-Now-2.png" />
+            <img src="https://i.pinimg.com/originals/4e/f7/bc/4ef7bcae3515ae56fcc5bc2b19f4c27e.jpg" />
             <a href="">
               <div class="cart">
                   <img style="float:right" id="cart" src="X/cart.png" />
@@ -168,7 +168,7 @@
             }
         ?>
         <div class="banner">
-            <img src="https://img.freepik.com/free-vector/flat-design-background-christmas-toys_23-2148355805.jpg?w=2000" alt="Slideshow Image 1" />
+            <img src="https://kidsland.vn/media/catalog/category/Lego-banner.jpg" />
         </div>
         <div class="menu">
             <ul>
