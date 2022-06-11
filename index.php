@@ -122,6 +122,7 @@
 
         .single-product {
             margin-left: 30px;
+            margin-right: 30px;
             float: left;
         }
 
