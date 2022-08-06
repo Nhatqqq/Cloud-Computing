@@ -234,6 +234,7 @@
                             </tr>
                         </table>
                     </form>
+
                     <?php
                         $connect = mysqli_connect("3.132.234.157","quanglxn","123@123a","quanglxn");
                         if($connect)
@@ -263,6 +264,7 @@
                             }
                         }
                     ?>
+                    
                 </div>
             </div>
         </div>

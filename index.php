@@ -204,6 +204,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="right">
                 <div class="product">
                     <?php
@@ -235,6 +236,7 @@
                         }
                     ?>
                 </div>
+                
             </div>
         </div>
         <div class="footer" style="background-color:aquamarine">
